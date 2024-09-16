@@ -6,7 +6,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Mahasiswa</h4>
+                        <h4>Mahasiswa Sekian</h4>
                     </div>
                     <div class="card-body">
                         <table class="table table-striped table-bordered">
