@@ -47,7 +47,7 @@
             <option value="Katolik" {{ old('agama') == 'Katolik' ? 'selected' : '' }}>Katolik</option>
             <option value="Hindu" {{ old('agama') == 'Hindu' ? 'selected' : '' }}>Hindu</option>
             <option value="Buddha" {{ old('agama') == 'Buddha' ? 'selected' : '' }}>Buddha</option>
-            <option value="Khonghu" {{ old('agama') == 'Khonghucu' ? 'selected' : '' }}>Khonghucu</option>
+            <option value="Khonghucu" {{ old('agama') == 'Khonghucu' ? 'selected' : '' }}>Khonghucu</option>
         </select>
         @error('agama')
             <div class="alert alert-danger mt-2">{{ $message }}</div>
