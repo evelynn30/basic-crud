@@ -31,7 +31,7 @@
                                 <td>{{ $mahasiswa->jk }}</td>
                             </tr>
                             <tr>
-                                <th>Hobi</th>
+                                <th>Hobi Mahasiswa</th>
                                 <td>{{ $mahasiswa->hobi }}</td>
                             </tr>
                             <tr>
