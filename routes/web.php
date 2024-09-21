@@ -15,14 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
-/*Route::get('/', function () {
-    return view('tampilanawal');
-});*/
-//route::get('/mahasiswa', [MahasiswaController::class, 'index'])->name('mahasiswa.index');
-//Route::post('/mahasiswa', 'MahasiswaController@store')->name('mahasiswa.store');
-//route::get('/mahasiswa/create', [MahasiswaController::class, 'create'])->name('mahasiswa.create');
+Route::get('/', function () {
+    return redirect()->route('mahasiswa.index');
+});
 
 Route::resource('mahasiswa', MahasiswaController::class);
