@@ -1,8 +1,10 @@
-## Ini Hanya test Git
+## Basic-Crud
 
-Hai. Ini adalah sebuah test saja untuk mempelajari GITHUB...
-Ini Juga merupakan Sebuah Web Crud Basic yang simpel....
-Sekian terimagaji.....
+- Clone the repo: git clone https://github.com/evelynn30/siAPI.git
+- Run cd to the newly created /namefolder directory
+- Run cp .env.example .env command
+- Run php artisan key:generate command
+- Run php artisan serve command
 
 ## License
 
