@@ -1,6 +1,6 @@
 ## Basic-Crud
 
-- Clone the repo: git clone https://github.com/evelynn30/siAPI.git
+- Clone the repo: git clone https://github.com/yiive/siAPI.git
 - Run cd to the newly created /namefolder directory
 - Run cp .env.example .env command
 - Run php artisan key:generate command
